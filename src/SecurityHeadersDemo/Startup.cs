@@ -44,7 +44,6 @@ namespace SecurityHeadersDemo
                 await next();
             });
 
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
